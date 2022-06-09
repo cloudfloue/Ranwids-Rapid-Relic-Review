@@ -1,0 +1,15 @@
+@import "./main.css";
+
+table, th, td {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 177px;
+    height: 20px;
+}
+
+.textAlignRight {
+    text-align: right;
+}

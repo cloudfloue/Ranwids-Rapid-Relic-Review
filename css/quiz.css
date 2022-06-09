@@ -1,0 +1,77 @@
+@import "main.css";
+
+div.liveStats {
+    position: absolute;
+    top: 64px;
+    justify-content: space-between;
+    width: 588px;
+    height: 40px;
+}
+
+div.questionDisplay {
+    padding-top: 60px;
+}
+
+div.options {
+    justify-content: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+[type="text"] {
+    display: block;
+    border-color: darkslategrey;
+    border-style: solid;
+    width: 588px;
+    height: 40px;
+    background-color: darkslategrey;
+    font-family: Kreon;
+}
+
+[type="radio"] {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: darkslategrey;
+    border-style: solid;
+    width: 20px;
+    height: 20px;
+    background-color: darkslategrey;
+    font-family: Kreon;
+}
+
+#imageDisplay {
+    display: block;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+#resetButtonIDF, #resetButtonMCQ {
+    border-color: maroon;
+    background-color: maroon;
+}
+
+#resetButtonIDF:hover, #resetButtonMCQ:hover {
+    border-color: rgb(96, 0, 0);
+    background-color: rgb(96, 0, 0);
+}
+
+#resetButtonIDF:active, #resetButtonMCQ:active {
+    border-color: rgb(64, 0, 0);
+    background-color: rgb(64, 0, 0);
+}
+
+#submitButtonIDF, #submitButtonMCQ {
+    border-color: mediumseagreen;
+    background-color: mediumseagreen;
+}
+
+#submitButtonIDF:hover, #submitButtonMCQ:hover {
+    border-color: rgb(40, 119, 75);
+    background-color: rgb(40, 119, 75);
+}
+
+#submitButtonIDF:active, #submitButtonMCQ:active {
+    border-color: rgb(30, 89, 57);
+    background-color: rgb(30, 89, 57);
+}

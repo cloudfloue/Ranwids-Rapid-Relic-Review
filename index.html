@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Home | Ranwid's Rapid Relic Review!</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="CS3, Rubidium, HTML, CSS, Javascript, Quiz, Slay The Spire">
+    <meta name="author" content="Hannah Ramos">
+    <meta name="description" content="This is a time-based quiz all about the relics in the deckbuilder 
+    roguelike Slay The Spire. You have 60 seconds to identify as many relics as possible based on images, 
+    lore and descriptions, with each correct answer adding a few seconds onto the clock. There are close
+    to 200 relics in the game, so this is no simple task! Go out there and prove how well you know every 
+    relic Ranwid has given you!">
+    <meta name="revised" content="08-06-2022">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kreon">
+    <link rel="icon" href="./favicon.webp" type="image/x-icon">
+
+</head>
+
+<!-- 
+    TODO:
+    - [Kreon is fine! Done!] Find appropriate fonts that match those used in the game...
+    - [Done!] Download all necessary images to the images folder (all relic images, splash images)
+    - [4/179] Create JSON file to store all question sets (179 objects with 4 pairs each, very long)
+    - [Done?] Create function to cycle through interfaces (main menu, quiz proper, results screen)
+        ^ uuu... i'm not actually allowed to do that according to the rubrics TT
+          sigh, it was so cool too...
+    - [IT'S FINALLY DONE] [IMPORTANT] FINISH THE F#@!ING STYLESHEETS
+        ^ I HATE CSS I HATE CSS I HATE CSS I HA
+    - bruv why am i even maintaining this anymore just bs everything lol
+ -->
+
+<body>
+
+    <form>
+        <fieldset>
+            <div>
+                <h1>Ranwid's Rapid Relic Review!</h1>
+                <h3>A Slay The Spire-based quiz</h3>
+                <p>
+                    This is a time-based quiz all about the relics from the deckbuilder roguelike Slay The 
+                    Spire. You have 60 seconds to identify as many relics as possible based on images, lore and
+                    descriptions, with each correct answer adding a few seconds onto the clock. There are close
+                    to 200 relics in the game, so this is no simple task! Go out there and prove your worth as
+                    an ascender!
+                    
+                    <br><br>
+
+                    (Disclaimer: No explosive potions were fed to Ranwid during the making of this quiz. All
+                    relics seen in the quiz are sourced from ethical loop mode relic hoarding.)
+                </p>
+            </div>
+
+            <div class="buttons">
+                <a class="buttonContainer" href="./html/quiz.html">
+                    <button type="button">Play</button>
+                </a>
+            </div>
+        </fieldset>
+    </form>
+
+    <p id="testOutput"></p>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
